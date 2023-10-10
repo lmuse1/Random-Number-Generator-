@@ -1,0 +1,26 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  min-height: 100vh; /* Ensure the container takes up at least the viewport height */
+  background-color: aliceblue;
+}
+
+h3, h1 {
+  color: rgb(93, 38, 241);
+}
+
+button {
+  display: inline-block;
+  background-color: #21e3bc;
+  padding: 20px;
+  width: 200px;
+  color: #ffffff;
+  text-align: center;
+  border: 4px double #cccccc;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer; /* add this line */
+  margin: 5px; /* add this line */
+}
